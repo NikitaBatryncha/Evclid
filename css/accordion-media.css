@@ -1,0 +1,280 @@
+@media (max-width: 1270px) {
+  #ac-trigger-0, #ac-trigger-1, #ac-trigger-2, #ac-trigger-3, #ac-trigger-4 {
+    font-size: 20px;
+    line-height: 150%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .faq {
+    margin-top: 81px;
+  }
+
+  #ac-trigger-1, #ac-trigger-3 {
+    min-height: 124px;
+  }
+
+  #ac-trigger-1 p {
+    width: 639px;
+  }
+
+  #ac-trigger-3 p {
+    width: 756px;
+  }
+
+  .ac-panel {
+    max-width:756px ;
+  }
+
+  .ac .ac-trigger::after {
+    top: 28%;
+  }
+}
+
+@media (max-width: 873px) {
+  .accordion__title {
+    width: 570px;
+  }
+}
+
+@media (max-width: 768px) {
+  .faq {
+    margin-top: 49px;
+  }
+
+  .accordion {
+    min-height: 124px;
+  }
+
+  .accordion:nth-child(1) {
+    min-height: 110px;
+  }
+
+  #ac-trigger-2, #ac-trigger-4 {
+    height: 123px;
+  }
+
+  #ac-trigger-0 p {
+    width: 570px;
+  }
+
+  #ac-trigger-1 p {
+    width: 489px;
+  }
+
+  #ac-trigger-2 p {
+    width: 529px;
+  }
+
+  #ac-trigger-3 p {
+    width: 566px;
+  }
+
+  #ac-trigger-4 p {
+    width: 565px;
+  }
+
+  .ac .ac-trigger::after {
+    top: 27%;
+  }
+
+  #ac-trigger-1.ac-trigger::after {
+    top: 29%;
+  }
+
+  #ac-trigger-2.ac-trigger::after {
+    top: 23%;
+  }
+
+  #ac-trigger-3.ac-trigger::after {
+    top: 28%;
+  }
+
+  #ac-trigger-4.ac-trigger::after {
+    top: 22%;
+  }
+
+  .ac .ac-trigger::after {
+    top: 27%;
+  }
+}
+
+@media (max-width: 656px) {
+  #ac-trigger-0, #ac-trigger-1, #ac-trigger-2, #ac-trigger-3, #ac-trigger-4 {
+    font-size: 14px;
+  }
+
+  .ac .ac-trigger::after {
+    content: url(../img/+х.svg);
+    transform: rotate(0deg);
+    width: 30px;
+    height: 30px;
+  }
+
+  .ac.is-active>.ac-header .ac-trigger::after {
+    content: none;
+    content: url(../img/+х.svg);
+    text-align: center;
+    transform: rotate(45deg);
+    transition: 1s;
+  }
+
+  .ac:hover {
+    border-top: 1px solid #FF9900;
+    border-bottom: 1px solid #FF9900;
+  }
+
+  .ac:hover .ac-trigger::after{
+    content: url(../img/+хhover.svg);
+  }
+
+  .ac:focus {
+    border-top: 1px solid #FF9900;
+    border-bottom: 1px solid #FF9900;
+  }
+
+  .ac:focus .ac-trigger::after{
+    content: url(../img/+хhover.svg);
+  }
+
+  .ac .ac-trigger::after {
+    top: 35%;
+  }
+
+  #ac-trigger-1.ac-trigger::after {
+    top: 35%;
+  }
+
+  #ac-trigger-2.ac-trigger::after {
+    top: 35%;
+  }
+
+  #ac-trigger-3.ac-trigger::after {
+    top: 35%;
+  }
+
+  #ac-trigger-4.ac-trigger::after {
+    top: 35%;
+  }
+
+  #ac-trigger-0 p {
+    width: 337px;
+  }
+
+  #ac-trigger-1 p {
+    width: 339px;
+  }
+
+  #ac-trigger-2 p {
+    width: 311px;
+  }
+
+  #ac-trigger-3 p {
+    width: 345px;
+  }
+
+  #ac-trigger-4 p {
+    width: 338px;
+  }
+}
+
+@media (max-width: 400px) {
+  #ac-trigger-0 p {
+    width: 237px;
+  }
+
+  #ac-trigger-1 p {
+    width: 239px;
+  }
+
+  #ac-trigger-2 p {
+    width: 211px;
+  }
+
+  #ac-trigger-3 p {
+    width: 245px;
+  }
+
+  #ac-trigger-4 p {
+    width: 238px;
+  }
+}
+
+@media (max-width: 320px) {
+  .faq {
+    margin-top: 60px;
+  }
+
+  .faq__accordion {
+    margin-top: 16px;
+  }
+
+  .accordion {
+    margin-top: 16px;
+  }
+
+  #ac-trigger-0, #ac-trigger-1, #ac-trigger-2, #ac-trigger-3, #ac-trigger-4 {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+    letter-spacing: 0.06em;
+  }
+
+  #ac-trigger-0 p {
+    width: 237px;
+  }
+
+  #ac-trigger-1 p {
+    width: 239px;
+  }
+
+  #ac-trigger-2 p {
+    width: 211px;
+  }
+
+  #ac-trigger-3 p {
+    width: 245px;
+  }
+
+  #ac-trigger-4 p {
+    width: 238px;
+  }
+
+  #ac-trigger-0, #ac-trigger-4 {
+    min-height: 108px;
+    height: 108px;
+  }
+
+  #ac-trigger-1, #ac-trigger-2,  #ac-trigger-3 {
+    min-height: 131px;
+  }
+
+  .ac .ac-trigger::after {
+    top: 36%;
+    right: -1px;
+  }
+
+  #ac-trigger-1.ac-trigger::after {
+    top: 38%;
+    right: -1px;
+  }
+
+  #ac-trigger-2.ac-trigger::after {
+    top: 37%;
+    right: -1px;
+  }
+
+  #ac-trigger-3.ac-trigger::after {
+    top: 38%;
+    right: -1px;
+  }
+
+  #ac-trigger-4.ac-trigger::after {
+    top: 35%;
+    right: -1px;
+  }
+}
+
+
+
+

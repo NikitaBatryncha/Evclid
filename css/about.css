@@ -1,0 +1,139 @@
+.about {
+  margin-top: 49px;
+}
+
+.about__descr {
+  margin: 20px auto 0 0;
+  max-width: 1235px;
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 300;
+  letter-spacing: 0.008em;
+}
+
+.about__cardholder {
+  margin-top: 20px;
+  max-width: 50%;
+  font-weight: 300;
+  letter-spacing: var(--spacing);
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.about__content {
+  display: flex;
+  width: auto;
+  max-width: 100%;
+  gap: 32px;
+}
+
+.about__cardholder {
+  flex-direction: column;
+  margin-top: var(--indent-1);
+  width: 868px;
+  height: 622px;
+  border-radius: 32px;
+}
+
+.about__cardholder:not(:last-child) {
+  display: flex;
+  justify-content: flex-end;
+  background-image: url(../img/about-img.jpg);
+  background-size: cover;
+}
+
+.cardholder__descr {
+  display: flex;
+  height: 196px;
+  padding: 50px 50px;
+  border-radius: 32px;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.descr__text {
+  max-width: 433px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 200%;
+  color: var(--white);
+}
+
+.descr__btn {
+  margin-left: 20px;
+  width: 175px;
+  height: 60px;
+  border: 3px solid var(--orange);
+  border-radius: 16px;
+  background-color: transparent;
+  color: var(--white);
+}
+
+.descr__btn:focus {
+  background-color: var(--orange);
+  outline: none;
+  border: none;
+}
+
+.descr__btn:hover {
+  background-color: var(--orange);
+}
+
+.descr__btn:active{
+  background-color: var(--red);
+  border: none;
+}
+
+.about__cardholder:last-child {
+  gap: 32px;
+}
+
+.about__card {
+  margin-left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  height: 295px;
+  background-color: var(--white);
+  border-radius: 32px;
+  background-repeat: no-repeat;
+  background-position-y: 63px;
+  background-position-x: 57px;
+  padding: 0 20px 0 300px;
+  border: 1px solid #CACACA;
+}
+
+.about__content320 {
+  display: none;
+}
+
+.about__card:not(:last-child) {
+  background-image: url(../img/item_element_1.svg);
+  margin-top: 0 !important;
+}
+
+.about__card:last-child {
+  background-image: url(../img/item_element_2.svg);
+}
+
+.card__title {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.001em;
+}
+
+.card__descr {
+  display: inline-block;
+  max-width: 450px;
+  margin-top: 9px;
+  font-weight: 300;
+  letter-spacing: var(--spacing);
+  font-size: 16px;
+  line-height: 32px;
+}
+

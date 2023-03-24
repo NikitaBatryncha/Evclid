@@ -1,0 +1,354 @@
+@media (max-width: 1440px) {
+  .stages__content-space {
+    gap: 120px;
+  }
+}
+
+@media (max-width: 1269px) {
+  .stages__content-space {
+    height: auto;
+    min-height: 0;
+  }
+
+  .stages__left-side {
+    height: 689px;
+    align-items: space-between;
+  }
+
+  .stages__illustration {
+    height: 100%;
+  }
+
+  .tabs__illustration {
+    height: 689px;
+    top: 50%;
+  }
+
+  .illustration1 {
+    background-image: url(../img/how-1024-1.jpg);
+  }
+
+  .illustration2 {
+    background-image: url(../img/how-pic-1024-2.jpg);
+  }
+
+  .illustration3 {
+    background-image: url(../img/how-pic-1024-3.svg);
+  }
+
+  .illustration4 {
+    background-image: url(../img/how-pic-1024-4.png);
+  }
+}
+
+@media (max-width: 1024px) {
+  .stages {
+    margin-top: 81px;
+  }
+
+  .stages__content-space {
+    gap: 50px;
+    min-height: 700px;
+  }
+
+  .tabs-nav {
+    gap: 85px;
+  }
+
+  .tabs-nav__btn {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .tabs__descr {
+    max-width: 437px;
+    font-size: 16px;
+  }
+
+  .stages__buttons {
+   padding-top: 0px;
+  }
+
+  .left-button {
+    line-height: 25px;
+  }
+
+  .right-button {
+    line-height: 25px;
+  }
+
+  .stages__left-side {
+    align-self: flex-start;
+    min-height: 700px;
+  }
+
+  .stages__illustration {
+    align-self: flex-end;
+    max-width: 437px;
+    height: auto;
+  }
+}
+
+@media (max-width: 942px) {
+  .tabs__descr {
+    font-size: 14px;
+    line-height: 200%;
+  }
+}
+
+@media (max-width: 768px) {
+  .stages {
+    margin-top: 77px;
+  }
+
+  .tabs-nav {
+    justify-content: space-between;
+    margin-top: 48px;
+    gap: calc(100% / (768 / 151));
+  }
+
+  .tabs-nav__item {
+    width: 53px;
+  }
+
+  .tabs-nav__btn {
+    font-weight: 400;
+    font-size: 17px;
+    width: 53px;
+  }
+
+  .stages__content-space {
+    flex-direction: column-reverse;
+    gap: 40px;
+  }
+
+  .stages__left-side {
+    height: 100%;
+    min-height: 477px;
+  }
+
+  .stages__title {
+    margin-top: 0px;
+  }
+
+  .stages__card {
+    margin-top: 40px;
+  }
+
+  .stages__info {
+    max-width: 668px;
+    flex-direction:column-reverse;
+    gap: 38px;
+  }
+
+  .tabs__descr {
+    max-width: 668px;
+    font-size: 16px;
+  }
+
+  .stages__illustration {
+    width: 100%;
+    max-width: 668px;
+    height: 286px;
+  }
+
+  .tabs__illustration {
+    width: 100%;
+    height: 100%;
+    border-radius: 24px;
+  }
+
+  .illustration1 {
+    background-image: url(../img/how-pic-768-1.jpg);
+  }
+
+  .illustration2 {
+    background-image: url(../img/how-pic-768-2.jpg);
+  }
+
+  .illustration3 {
+    background-image: url(../img/how-pic-768-3.jpg);
+  }
+
+  .illustration4 {
+    background-image: url(../img/how-pic-768-4.jpg);
+  }
+}
+
+@media (max-width: 640px) {
+  .tabs-nav {
+    max-width: 610px;
+    width: 100%;
+    gap: calc(100% / (640 / 130));
+  }
+
+  .tabs__descr {
+    height: auto;
+    font-size: 14px;
+    line-height: 200%;
+  }
+}
+
+@media (max-width: 563px) {
+  .tabs-nav {
+    gap: 50px;
+  }
+  .tabs-nav__btn {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 520px) {
+  .stages {
+    margin-top: 40px;
+  }
+
+  .tabs-nav {
+    margin-top: 22px;
+    gap: calc(100% / (290 / 44));
+  }
+
+  .stages__content-space {
+    margin-top: 16px;
+    gap: 16px;
+  }
+
+  .tabs__illustration {
+    border-radius: 16px;
+  }
+
+  .tabs-nav__btn {
+    width: 44px;
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .stages__title {
+    margin-top: 0;
+  }
+
+  .stages__buttons {
+    padding: 0;
+    margin-top: 24px;
+    height: 39px;
+    gap: 10px;
+  }
+
+  .left-button {
+    max-width: 162px;
+    height: 39px;
+    font-size: 12px;
+    line-height: 15px;
+    border-radius: 8px;
+  }
+
+  .right-button {
+    max-width: 118px;
+    height: 39px;
+    border-radius: 8px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+}
+
+@media (max-width: 400px) {
+
+  .illustration1 {
+    background-image: url(../img/stages__illustration_1.jpg);
+  }
+
+  .illustration2 {
+    background-image: url(../img/how-pic-320-2.jpg);
+  }
+
+  .illustration3 {
+    background-image: url(../img/how-pic-320-3.jpg);
+  }
+
+  .illustration4 {
+    background-image: url(../img/how-pic-320-4.jpg);
+  }
+}
+
+@media (max-width: 360px) {
+  .tabs__title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+  }
+
+  .tabs-nav {
+    margin-top: 20px;
+    gap: 42px;
+  }
+
+  .tabs-nav__btn {
+    width: auto;
+    font-size: 13px;
+    font-weight: 400;
+  }
+
+  .stages__descr {
+    max-width: 290px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 320px) {
+  .stages {
+    margin-top: 60px;
+  }
+
+  .stages__content-space {
+    margin-top: 16px;
+    gap: 16px;
+  }
+
+  .stages__left-side {
+    max-width: 290px;
+  }
+
+  .stages__illustration {
+    padding: 0;
+    width: 290px;
+    height: 160px;
+  }
+
+  .tabs__illustration {
+    height: 160px;
+    border-radius: 16px;
+  }
+
+  .tabs__descr {
+    margin: 0;
+    margin-top: 8px;
+    max-width: 290px;
+    min-height: 728px;
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .stages__buttons {
+    padding: 0;
+    margin-top: 24px;
+    height: 39px;
+    gap: 10px;
+  }
+
+  .left-button {
+    max-width: 162px;
+    height: 39px;
+    font-size: 12px;
+    line-height: 15px;
+    border-radius: 8px;
+  }
+
+  .right-button {
+    max-width: 118px;
+    height: 39px;
+    border-radius: 8px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+}

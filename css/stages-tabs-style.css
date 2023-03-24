@@ -1,0 +1,177 @@
+.stages {
+  margin-top: var(--indent-2);
+}
+
+.tabs-nav {
+  margin-top: 50px;
+  gap: 88px;
+}
+
+.tabs-nav__btn {
+  font-weight: 400;
+  width: auto;
+  font-size: 17px;
+  line-height: 18px;
+  background-color: inherit;
+  border: none;
+  padding: 0;
+}
+
+.tabs-nav__btn--active {
+  color: #FF9900;
+}
+
+.tabs-nav__btn:hover {
+  color: #FF9900;
+}
+
+.stages__title {
+  letter-spacing: var(--spacing);
+}
+
+.stages__content-space {
+  flex-direction: row;
+  margin-top: 47px;
+  gap: calc(100vw / (1920 / 142));
+}
+
+.stages__left-side {
+  flex-direction: column;
+  max-width: 758px;
+  height: 100%;
+  min-height: 470px;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.tabs__title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.tabs__item {
+  display: none;
+}
+
+.tabs__item--active {
+  display: block;
+}
+
+.tabs-nav__item:focus {
+  outline: 1px solid var(--orange);
+  outline: none;
+  border: none;
+}
+
+.tabs-nav__item:hover {
+  color: var(--orange);
+}
+
+.tabs-nav__item:active {
+  color: var(--red);
+  outline: none;
+}
+
+.tabs__descr {
+  max-width: 758px;
+  min-height: 352px;
+  margin-top: 8px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: var(--spacing);
+}
+
+.stages__buttons {
+  padding-top: 15px;
+  gap: 32px;
+  align-self: flex-start;
+}
+
+.left-button {
+  width: 175px;
+  height: 60px;
+  border-radius: 16px;
+  border: none;
+  color: var(--white);
+  background-color: #FF9900;
+}
+
+.left-button:hover {
+  background-color: var(--yellow);
+}
+
+.left-button:focus {
+  background-color: var(--yellow);
+  outline: none;
+  border: none;
+}
+
+.left-button:active {
+  background-color: var(--red);
+}
+
+.right-button {
+  width: 147px;
+  height: 60px;
+  border: 1px solid var(--black);
+  border-radius: 16px;
+  background-color: #fff;
+}
+
+.right-button:hover {
+  background-color: var(--grey);
+  color: var(--white);
+  border: none;
+}
+
+.right-button:focus {
+  background-color: var(--grey);
+  color: var(--white);
+  outline: none;
+  border: none;
+}
+
+.right-button:active {
+  background-color: var(--black);
+  color: var(--white);
+}
+
+.stages__illustration {
+  padding-top: 2px;
+  width: 870px;
+  height: 460px;
+  align-self: flex-start;
+}
+
+.tabs__illustration {
+  margin-top: auto;
+  display: none;
+  height: 460px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size:cover;
+  border-radius: 32px;
+}
+
+.tabs__illustration--active {
+  display: block;
+}
+
+.illustration1 {
+  background-image: url(../img/stages-img-1.jpg);
+}
+
+.illustration2 {
+  background-image: url(../img/stages-img-2.jpg);
+}
+
+.illustration3 {
+  background-image: url(../img/stages-img-3.jpg);
+}
+
+.illustration4 {
+  background-image: url(../img/stages-img-4.jpg);
+}
+

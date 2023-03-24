@@ -1,0 +1,188 @@
+.faq {
+  margin-top: 111px;
+  letter-spacing: 0.02em;
+}
+
+.faq__accordion {
+  margin-top: 32px;
+}
+
+.accordion {
+  flex-direction: column;
+  margin-top: 32px;
+}
+
+.ac {
+  margin: 0;
+  border: none;
+  border-top: 1px solid #CACACA;
+  border-bottom: 1px solid #CACACA;
+}
+
+#ac-trigger-0, #ac-trigger-1, #ac-trigger-2, #ac-trigger-3, #ac-trigger-4 {
+  min-height: 109px;
+  padding: 0;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.057em;
+}
+
+#ac-panel-0 > p {
+  margin-bottom: 40px;
+  max-width: 1003px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 200%;
+}
+
+#ac-panel-1 > p {
+  margin-bottom: 40px;
+  max-width: 1003px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 200%;
+}
+
+#ac-panel-2 > p {
+  margin-bottom: 40px;
+  max-width: 1003px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 200%;
+}
+
+#ac-panel-3 > p {
+  margin-bottom: 40px;
+  max-width: 1003px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 200%;
+}
+
+#ac-panel-4 > p {
+  margin-bottom: 40px;
+  max-width: 1003px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 200%;
+}
+
+.ac .ac-trigger::after {
+  width: 50px;
+  height: 50px;
+  content: none;
+  content: url(../img/accordion__button.svg);
+  transform: rotate(0deg);
+  text-align: center;
+  transition: 0.8s;
+  top: 25%;
+  right: 0;
+}
+
+.ac.is-active>.ac-header .ac-trigger::after {
+  content: none;
+  content: url(../img/accordion__button.svg);
+  text-align: center;
+  transform: rotate(45deg);
+  transition: 1s;
+}
+
+.ac:hover {
+  border-top: 1px solid #FF9900;
+  border-bottom: 1px solid #FF9900;
+}
+
+#ac-trigger-0:focus {
+  border-top: 1px solid #FF9900;
+  border-bottom: 1px solid #FF9900;
+}
+
+#ac-trigger-1:focus {
+  border-top: 1px solid #FF9900;
+  border-bottom: 1px solid #FF9900;
+}
+
+#ac-trigger-2:focus {
+  border-top: 1px solid #FF9900;
+  border-bottom: 1px solid #FF9900;
+}
+
+#ac-trigger-3:focus {
+  border-top: 1px solid #FF9900;
+  border-bottom: 1px solid #FF9900;
+}
+
+#ac-trigger-4:focus {
+  border-top: 1px solid #FF9900;
+  border-bottom: 1px solid #FF9900;
+}
+
+.ac:hover .ac-trigger::after{
+  content: url(../img/accordion-button-hover.svg);
+}
+
+#ac-trigger-0:focus.ac-trigger::after{
+  content: url(../img/accordion-button-hover.svg);
+}
+
+#ac-trigger-1:focus.ac-trigger::after{
+  content: url(../img/accordion-button-hover.svg);
+}
+
+#ac-trigger-2:focus.ac-trigger::after{
+  content: url(../img/accordion-button-hover.svg);
+}
+
+#ac-trigger-3:focus.ac-trigger::after{
+  content: url(../img/accordion-button-hover.svg);
+}
+
+#ac-trigger-4:focus.ac-trigger::after{
+  content: url(../img/accordion-button-hover.svg);
+}
+
+.ac.is-active:hover {
+  border-top: 1px solid #CACACA;
+  border-bottom: 1px solid #CACACA;
+}
+
+.ac .ac-trigger:hover {
+  color: #FF9900;
+}
+
+#ac-trigger-0:focus > p {
+  color: #FF9900;
+}
+
+#ac-trigger-1:focus > p {
+  color: #FF9900;
+}
+
+#ac-trigger-2:focus > p {
+  color: #FF9900;
+}
+
+#ac-trigger-3:focus > p {
+  color: #FF9900;
+}
+
+#ac-trigger-4:focus > p {
+  color: #FF9900;
+}
+
+#ac-trigger-0 {
+  color: black;
+  outline: none;
+  border: none;
+}
+
+.ac.is-active>.ac-header .ac-trigger:hover {
+  color: black;
+}
+
+.ac .ac-trigger:focus {
+  color: black;
+  outline: none;
+  border: none;
+}

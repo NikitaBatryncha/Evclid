@@ -1,0 +1,134 @@
+@media (max-width: 1024px) {
+  .burger {
+    padding: 0;
+    margin-bottom: 5px;
+    position: relative;
+    flex-direction: column;
+    width: 30px;
+    height: 23px;
+    color: currentColor;
+    z-index: 10000;
+    background-color: inherit;
+    border: none;
+    align-items: flex-start;
+  }
+
+  .burger:focus {
+    outline: 2px solid #FF9900;
+  }
+
+  .burger__line {
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    background-color: var(--black);
+  }
+
+  .burger__line:first-child {
+    top: 0;
+  }
+
+  .burger__line:nth-child(2) {
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+  }
+
+  .burger__line:nth-child(3) {
+    bottom: 0;
+  }
+
+  .header__nav {
+    display: inline-block;
+    flex-direction: column;
+    position: absolute;
+    padding: 38px 0 0 50px;
+    width: 420px;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+    background-color: #FFF;
+    border-radius: 0px 0px 32px 32px;
+    box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    visibility: hidden;
+    transform: translateX(-120%);
+    transition-property: transform;
+    transition-duration: 0.3s ;
+    transition-timing-function:  ease-in-out;
+  }
+
+  .stop-scroll {
+    overflow: hidden;
+  }
+
+  .nav {
+    margin-top: 157px;
+    gap: 60px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .header__link a {
+    font-weight: 700;
+    font-size: 24px;
+    color: #333;
+  }
+
+  .header__nav--active {
+    visibility: visible;
+    transform: none;
+  }
+
+  .burger--active:active {
+    outline: none;
+  }
+
+  .burger--active
+  .burger__line:nth-child(2) {
+    width: 25px;
+    background-color: #e1670e;
+    transition: width 0.5s ease-in-out;
+  }
+
+  .burger--active
+  .burger__line:first-child {
+    background-color: #e1670e;
+  }
+
+  .burger--active
+  .burger__line:last-child {
+    width: 18px;
+    background-color: #e1670e;
+    transition: width 0.5s ease-in-out;
+  }
+}
+
+@media (max-width: 768px) {
+  .header__nav {
+    width: 100%;
+    max-width: 420px;
+  }
+}
+
+@media (max-width: 520px) {
+  .header__nav {
+    width: 320px;
+  }
+}
+
+@media (max-width: 320px) {
+  .header__nav {
+    max-width: 320px;
+  }
+
+  .header__link a {
+    font-size: 16px;
+  }
+
+  .nav {
+    margin-top: 32px;
+    gap: 32px;
+  }
+}

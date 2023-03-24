@@ -1,0 +1,192 @@
+
+
+@media (max-width: 1518px) {
+
+  :root {
+    --indent-1: 30px;
+    --indent-2: 60px;
+    --padding1024: calc(100% / (924 / 77));
+    --padding768: calc(100% / (668 / 35));
+  }
+
+  .header {
+    height: 80px;
+    border-radius: 0 0 24px 24px;
+  }
+
+  .header__logo {
+    width: 150px;
+    height: 48px;
+  }
+
+  .nav {
+    gap: 65px;
+  }
+
+  .header__link {
+    height: auto;
+  }
+
+  .link {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1024px) {
+
+  .body {
+    max-width: 1024px;
+    margin: 0 auto;
+  }
+
+  .flex {
+    align-items: center;
+  }
+
+  .container {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 954px;
+  }
+
+  .header {
+    display: none;
+  }
+
+  .header1024 {
+    padding: 0 50px;
+    display: flex;
+    align-items: center;
+    background-color: var(--white);
+    border-radius: 0 0 32px 32px;
+    height: 100px;
+    box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.1);
+  }
+
+  .header1024--flex {
+    display: flex;
+    padding-top: 4px;
+    max-width: 924px;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .header1024__search {
+    width: 24px;
+    height: 24px;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    background-image: url(../img/search.svg);
+    background-repeat: no-repeat;
+    cursor: pointer;
+  }
+
+  .logo--size320 {
+    display: none;
+  }
+
+  .logo--size {
+    min-width: 150px;
+    height: 48px;
+  }
+}
+
+@media (max-width: 865px) {
+  .hero__content {
+    padding: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 698px;
+  }
+
+  .header1024 {
+    height: 69px;
+    border-radius: 0 0 24px 24px;
+  }
+
+  .header1024--flex {
+    padding-top: 6px;
+    justify-content: space-between;
+  }
+
+  .logo--size {
+    width: 150px;
+    height: 48px;
+  }
+}
+
+@media (max-width: 640px) {
+  .title {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 563px) {
+  .header1024 {
+    padding: 0 25px;
+  }
+}
+
+@media (max-width: 520px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .title {
+    font-size: 34px;
+  }
+}
+
+@media (max-width: 360px) {
+  .title {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+}
+
+@media (max-width: 320px) {
+  body {
+    width: 320px;
+    overflow-x: hidden;
+  }
+
+  .container {
+    padding: 0 5px;
+    margin: 0 auto;
+    width: 300px;
+  }
+
+  .title {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .header1024 {
+    padding: 0 15px;
+    height: 69px;
+    border-radius: 0 0 16px 16px;
+  }
+
+  .logo--size {
+    display: none;
+  }
+
+  .logo--size320 {
+    display: inline-block;
+    width: 110px;
+  }
+
+  .header1024--flex {
+    padding-top: 4px;
+    height: 35px;
+    gap: 63px;
+  }
+}
+
